@@ -1,13 +1,8 @@
-body {
-    background: linear-gradient(to right, #333333, #1a1a1a);
-}
-
 .education-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    color: #f8f8f8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 8px;
     max-width: 800px;
@@ -17,7 +12,6 @@ body {
 .section-title {
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #ffffff;
 }
 
 .education-block {
@@ -25,11 +19,10 @@ body {
     align-items: center;
     justify-content: space-between; 
     margin-bottom: 30px;
-    background-color: #333333;
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(130, 130, 130, 0.3);
 }
 
 .university-logo {
@@ -48,17 +41,14 @@ body {
 
 .university-name {
     font-weight: bold;
-    color: #f0f0f0;
 }
 
 .date-range {
-    color: #a9a9a9;
     align-self: flex-end;
 }
 
 .degree {
     font-size: 1.5em;
-    color: #ffffff;
     margin-top: 10px;
     margin-bottom: 5px;
     font-style: italic;
@@ -72,7 +62,6 @@ body {
 /*.coursework {
     font-size: 1.1em;
     margin-top: 5px;
-    color: #dcdcdc;
 }*/
 
 .education-details {
@@ -85,7 +74,6 @@ body {
 .education-details h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #ffffff;
 }
 
 .education-details p {

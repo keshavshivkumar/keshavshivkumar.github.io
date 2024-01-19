@@ -1,25 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { MantineProvider, ColorSchemeProvider } from '@mantine/core';
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
+
 import Home from './components/Home';
-// import About from './components/About';
+import About from './components/About';
 import Education from './components/Education';
 import Projects from './components/Projects';
-// import Experience from './components/Experience';
-// import Skills from './components/Skills';
 import Contact from './components/Contact';
+import './App.css';
+import { Alegreya } from './components/Alegreya';
 
 function App() {
+  const [colorScheme, setColorScheme] = useState('dark');
+  const toggleColorScheme = (value) =>
+    setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
+
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </div>
+    <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
+      <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
+        <Alegreya/>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </MantineProvider>
+    </ColorSchemeProvider>
   );
 }
 

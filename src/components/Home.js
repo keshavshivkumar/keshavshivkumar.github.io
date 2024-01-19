@@ -9,7 +9,7 @@ const Home = () => {
             <Navbar/>
             <div className="home-container">
                 <div className="text-section">
-                    <h1>Hi!</h1>
+                    <h1>Hi</h1>
                     <h2>I'm Keshav Shivkumar</h2>
                     <p className="subtitle">
                         MSCS Student at Rutgers University, passionate to learn and leverage experience in Software Engineering, Data Science, and Machine Learning.
@@ -38,7 +38,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        
     );
 }
 

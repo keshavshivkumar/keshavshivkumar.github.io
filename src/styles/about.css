@@ -1,0 +1,39 @@
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.about-me-content {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 0.3;
+}
+
+.about-me-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-me-image img {
+    max-width: 60%;
+    height: auto;
+}
+
+.about-me-text {
+    flex: 2;
+    max-width: 800px; 
+}
+
+@media (max-width: 768px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+    
+    .about-me-image, .about-me-text {
+        max-width: 100%;
+        flex: none;
+    }
+}

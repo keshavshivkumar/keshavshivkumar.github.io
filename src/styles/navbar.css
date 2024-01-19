@@ -1,6 +1,11 @@
 .navbar {
-    background-color: #1f1f1f;
-    width: 100%;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
 }
 
 .navbar ul {
@@ -17,7 +22,7 @@
 
 .navbar li a {
     display: block;
-    color: #f8f8f8;
+    color: inherit;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

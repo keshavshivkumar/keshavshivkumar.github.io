@@ -6,8 +6,8 @@ const Education = () => {
     return (
         <div>
             <Navbar/>
+            <h1 className="section-title">Education</h1>
             <div className="education-container">
-                <h1 className="section-title">Education</h1>
                 <div className="education-block">
                     <img src="/RUNB_S_RED.png" alt="Rutgers University Logo" className="university-logo" />
                     <div className="education-details">
@@ -16,7 +16,7 @@ const Education = () => {
                             <span className="date-range">Sept 2022 - May 2024</span>
                         </div>
                         <h2 className="degree">Master of Science (M.S.) in Computer Science</h2>
-                        <p className="gpa">GPA: 3.85/4.00</p>
+                        <p className="gpa">GPA: 3.9/4.0</p>
                         {/* <p className="coursework">Relevant Coursework: </p> */}
                     </div>
                 </div>
