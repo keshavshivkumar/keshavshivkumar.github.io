@@ -1,11 +1,5 @@
 const projectDetails = [
     {
-      title: "Portfolio",
-      description: "Worked on building my portfolio using ReactJS and GitHub pages.",
-      technologies: "HTML, CSS, JavaScript, ReactJS, GitHub",
-      githubUrl:"https://github.com/keshavshivkumar/keshavshivkumar.github.io"
-    },
-    {
       title: "RUEats Web Application",
       description: "Spearheaded the end-to-end development of a food delivery application, emulating a professional software engineering team's workflow. Initiated with a comprehensive project blueprint and architectural diagrams, progressed to backend deployment on AWS, API development, and culminated in frontend design.",
       technologies: "HTML, CSS, JavaScript, NodeJS, SQL, AWS",
