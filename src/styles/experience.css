@@ -1,0 +1,107 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.experience-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(130, 130, 130, 0.3);
+}
+
+.experience-block:hover .company-logo {
+    transform: scale(1);
+}
+
+.experience-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(130, 130, 130, 0.4);
+}
+
+
+.experience-description {
+    font-size: 0.5em;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.experience-block:hover .experience-description {
+    opacity: 1; 
+}
+
+.company-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.company-and-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.company-name {
+    font-weight: bold;
+    text-shadow: 0px 1px 2px;
+}
+
+.date-range {
+    align-self: flex-end;
+}
+
+.role {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.experience-details p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .experience-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .company-logo {
+        margin-bottom: 10px;
+    }
+}

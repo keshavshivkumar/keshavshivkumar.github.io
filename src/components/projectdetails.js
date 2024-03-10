@@ -26,6 +26,18 @@ const projectDetails = [
       githubUrl: "https://github.com/keshavshivkumar/Shopfinity"
     },
     {
+      title: "Better, Smarter, Faster",
+      description: "Improved on Circle of Life by including implementations of Markov Decision Processes (MDP) and neural network regression models to ensure a ~100% success rate.",
+      technologies: "Python",
+      githubUrl: "https://github.com/keshavshivkumar/bettersmarterfaster"
+    },
+    {
+      title: "Circle of Life",
+      description: "Developed sophisticated probabilistic models to simulate decision-making in agents with varying levels of knowledge to strategically catch prey while evading predators within a circular graph environment.",
+      technologies: "Python",
+      githubUrl: "https://github.com/keshavshivkumar/CircleOfLife"
+    },
+    {
       title: "Cloud-Based Skin Cancer Detection Application",
       description: "Created a DenseNet CNN model trained using AWS SageMaker on the HAM10000 dataset stored on AWS S3 that classifies images of skin lesions and deploys it to AWS using API Gateway, with an Android application interface to allow users to send a skin lesion image. Published a research paper at an IEEE conference for the same.",
       technologies: "Python (TensorFlow, Keras), AWS, Java",
