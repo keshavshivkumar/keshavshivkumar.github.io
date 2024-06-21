@@ -24,10 +24,17 @@ const Experience = () => {
                         <h2 className="role">Software Engineer Intern</h2>
                         {isHovered && (
                             <p className="experience-description">
-                            • Developed a real-time monitoring system for manufactured fuel cell maintenance using ReactJS to engineer a dynamic front-end dashboard that displayed live data streams and Flask to serve as the back-end framework to handle API integration and monitor cell performance metrics for authorized users.
-                            • Transitioned the application to be hosted on an AWS EC2 instance, leveraging cloud scalability and reliability to accommodate the growing influx of data. Designed a MariaDB database hosted on AWS RDS to meticulously store historical test data, ensuring comprehensive tracking of fuel cell performance over time.
-                            • Implemented data ingestion routines using pre-existing APIs to retrieve real-time fuel cell metrics.
-                            • Integrated Jenkins and GitLab CI/CD pipelines to automate the deployment process and facilitate continuous delivery of application updates and new features onto EC2.    
+                            • Developed a real-time monitoring system for manufactured fuel cell maintenance using ReactJS to engineer a
+                            dynamic front-end dashboard that displayed live data streams and Flask to serve as the back-end framework to
+                            handle API integration and monitor cell performance metrics for authorized users.
+                            • Transitioned the monitoring web application on an AWS EC2 instance to accommodate the growing influx of
+                            data.
+                            • Engineered and launched a MariaDB database on AWS RDS to archive test data, improving the
+                            application\’s efficiency by 52%, to ensure a comprehensive tracking of fuel cell performance over time.
+                            • Implemented data ingestion routines using pre-existing APIs to retrieve real-time fuel cell metrics such as
+                            electrical output, fuel utilization rate, system efficiency, emission levels into a status table UI.
+                            • Integrated Jenkins and GitLab CI/CD pipelines to automate the deployment process and facilitate continuous
+                            delivery of application updates and new features onto EC2.    
                             </p>
                         )}
                     </div>

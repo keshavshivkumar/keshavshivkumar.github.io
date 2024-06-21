@@ -1,5 +1,11 @@
 const projectDetails = [
     {
+      title: "Pokedex",
+      description: "Implementing a single-page web application using ReactJS of a Pokedex, an encyclopedia device from the popular franchise \"Pokemon\", to showcase an extensive catalog of Pokemon species, featuring dynamic, client-side filtering capabilities to allow users to efficiently search and sort through the PostgreSQL database based on various criteria. Leveraged asynchronous programming techniques to handle API requests from the Django backend, and designed a visually appealing and user-friendly interface by incorporating Material-UI.",
+      technologies: "React.js, Django, TypeScript, PostgreSQL, Python",
+      // githubUrl:""
+    },
+    {
       title: "RUEats Web Application",
       description: "Spearheaded the end-to-end development of a food delivery application, emulating a professional software engineering team's workflow. Initiated with a comprehensive project blueprint and architectural diagrams, progressed to backend deployment on AWS, API development, and culminated in frontend design.",
       technologies: "HTML, CSS, JavaScript, NodeJS, SQL, AWS",
